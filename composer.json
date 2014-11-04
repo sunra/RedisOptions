@@ -13,8 +13,8 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": ">=2.1.0",
-        "symfony/yaml": ">=2.1.0",
-        "sunra/turbosms-soapgate-client-php": "dev-master"
+        "snc/redis-bundle": "dev-master",
+        "predis/predis": "0.8.5"        
     },    
     "autoload": {
         "psr-4": {
