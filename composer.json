@@ -1,0 +1,26 @@
+{
+    "name": "sunra/redis-options",
+    "version": "0.1.0",
+    "type": "library",
+    "description": "Options library based on Redis",
+    "keywords": ["redis", "options", "web", "application"],
+    "homepage": "https://github.com/sunra/RedisOptions",
+    "license": "MIT",
+    "authors": [{
+        "name": "sunra",
+        "email": "sunra@yandex.ru"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.1.0",
+        "symfony/yaml": ">=2.1.0",
+        "sunra/turbosms-soapgate-client-php": "dev-master"
+    },    
+    "autoload": {
+        "psr-4": {
+            "RedisOptions\\": "src/",
+            "Sunra\\RedisOptions\\": ""
+        }
+    },
+    "target-dir": "Sunra/RedisOptions"   
+}
