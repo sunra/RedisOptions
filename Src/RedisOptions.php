@@ -2,7 +2,7 @@
 
 namespace Sunra\RedisOptions;
 
-class Options {
+class RedisOptions {
 	private $redis;
 	
 	
