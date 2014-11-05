@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunra\RedisOptions;
+namespace Sunra;
 
 class RedisOptions {
 	private $redis;
