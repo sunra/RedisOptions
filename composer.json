@@ -17,8 +17,8 @@
         "predis/predis": "0.8.5"        
     },    
     "autoload": {
-        "psr-4": {            
-            "Sunra\\RedisOptions": "src/"
+        "psr-0": {            
+            "Sunra\\RedisOptions\\": "src/"
         }
     }    
 }
