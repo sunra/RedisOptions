@@ -18,7 +18,7 @@
     },    
     "autoload": {
         "psr-4": {            
-            "Sunra\\RedisOptions\\": "src/"
+            "Sunra\\RedisOptions": "src/"
         }
     }    
 }

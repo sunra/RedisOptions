@@ -18,9 +18,10 @@ snc_redis:
             dsn: redis://localhost/1
             logging: false
 
-r_options:
-    class:        Sunra\RedisOptions
-    arguments:    [@snc_redis.options]
+services:
+    r_options:
+        class:        Sunra\RedisOptions
+        arguments:    [@snc_redis.options]
 ```
 
 
