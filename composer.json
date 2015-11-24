@@ -14,7 +14,7 @@
         "php": ">=5.3.3",
         "symfony/framework-bundle": ">=2.1.0",
         "snc/redis-bundle": "dev-master",
-        "predis/predis": "0.8.5"        
+        "predis/predis": ">=0.8.5"        
     },    
     "autoload": {
         "psr-0": {            
