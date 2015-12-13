@@ -13,7 +13,7 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": ">=2.1.0",
-        "predis/predis": "v1.0.3",
+        "predis/predis": "v1.0.2",
         "snc/redis-bundle": "dev-master"        
     },    
     "autoload": {
